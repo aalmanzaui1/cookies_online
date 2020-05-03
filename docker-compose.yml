@@ -21,11 +21,11 @@ services:
     environment:
       MYSQL_DATABASE: cookies
       MYSQL_USER: rangelbarroso
-      MYSQL_PASSWORD: elvaginon
+      MYSQL_PASSWORD: elvergudo
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - db:/var/lib/mysql
 
 volumes:
   wordpress:
-  db:
+  db: 
